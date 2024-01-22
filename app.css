@@ -1,0 +1,252 @@
+#divuno{
+  background-color: #2596be;
+  width: 100%;
+  margin-top: -22px;
+  height: 50px;
+}
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+#intv1{
+   font-family:arial;
+      width: 80%;
+      margin:0 auto;
+      line-height: 1.6;
+      margin-left: 120px;
+      margin-top: 13px;
+}
+#imge{
+border-radius: 10px;
+width: 600px;
+padding-top: 0px;
+margin-top: -1px;
+  }
+#h2w{
+  margin-top: -5px;
+  font-family:arial;
+  padding: 10px;
+  line-height: 1.5;
+  color: #2596be;
+  cursor: pointer;
+  text-shadow: 1px 1px 0.8px rgba(0, 0, 0, 0.5);
+
+}
+#h2e{
+  font-family:arial;
+  padding: 0px;
+  line-height: 1.5;
+  color: green;
+  text-shadow: 0.9px 0.8px 0.8px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  margin-top: 17px;
+}
+#imgw{
+width: 330px;
+margin-top: -7px;
+border-radius: 10px;
+padding-top: 22px;
+}
+
+#h2w{
+  margin-top: -5px;
+  font-family:arial;
+  padding: 10px;
+  line-height: 1.5;
+  color:#2596be;
+  cursor: pointer;
+  text-shadow: 1px 1px 0.8px rgba(0, 0, 0, 0.5);
+  font-size: 35px;
+}
+#h2e{
+  font-family:arial;
+  padding: 10px;
+  line-height: 1.5;
+  color: seagreen ;
+  text-shadow: 0.9px 0.8px 0.8px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  font-size: 35px;
+}
+#tp{
+  border-spacing: 50px;
+  border-collapse: separate;
+  text-align: left;
+  margin-top: -70px;
+  border-color: white;
+  margin-right: 140px;
+}
+#ce, #cw{
+  padding: 1px;
+}
+#imgw:hover{
+  transform: scale(1.07); 
+      transition: transform 0.4s ease;
+}
+#imge:hover{
+  transform: scale(1.07); 
+      transition: transform 0.4s ease;
+}
+#h2vb{
+  font-family: arial;
+  color:white;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+  padding-top: 10px;
+  font-size: 26px;
+}
+#menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+#divt{
+   background-color: #2c3e50; /* Cambi%l color de fondo */
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+#li1 {
+    position: relative;
+    color: #233140;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px; /* AF- bordes redondeados */
+
+}
+#menu{
+  display: flex;
+    align-items: center;
+}
+#divt{
+  height: 30px;
+
+}
+#al{
+display: flex;
+padding: 5px 10px;
+height: 10px;
+margin-top: -10px;
+}
+#al:hover{
+ background-color: #34495e; 
+ transition: background-color 0.3s ease-in-out;
+}
+#li1, #lis{
+  font-family: arial;
+  font-size: 18px;
+}
+#li1:hover #submenu {
+    display: block;
+}
+#lis, #li1{
+  padding: 8px;
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 5px; /* AF- bordes redondeados */
+}
+#lis:hover{
+  background-color: #34495e;
+}
+#li1:hover #submenu {
+    display: block;
+    background-color:#233140
+}
+#li1:hover{
+  border-radius: 10px;
+  background-color: #34495e;
+}
+#submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #2c3e50; /* Cambi%l color de fondo */
+    padding: 10px;
+    border-radius: 5px; /* AF- bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+    #al {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+#menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+#divt{
+   background-color: #2c3e50; /* Cambié el color de fondo */
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+#li1 {
+    position: relative;
+    color: #233140;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px; /* Añadí bordes redondeados */
+
+}
+#menu{
+  display: flex;
+    align-items: center;
+}
+#divt{
+  height: 30px;
+
+}
+
+#al:hover{
+ background-color: #34495e; 
+ transition: background-color 0.3s ease-in-out;
+}
+#li1, #lis{
+  font-family: arial;
+  font-size: 18px;
+}
+#li1:hover #submenu {
+    display: block;
+}
+#lis, #li1{
+  padding: 8px;
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 5px; /* Añadí bordes redondeados */
+}
+#lis:hover{
+  background-color: #34495e;
+}
+#li1:hover #submenu {
+    display: block;
+    background-color:#233140
+}
+#li1:hover{
+  border-radius: 10px;
+  background-color: #34495e;
+}
+#submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #2c3e50; /* Cambié el color de fondo */
+    padding: 10px;
+    border-radius: 5px; /* Añadí bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+    #al {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    a {
+      display: block;
+      color: white;
+      text-decoration: none;
+    }

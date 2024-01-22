@@ -1,0 +1,142 @@
+#pint1, #pint2{
+	font-family: arial;
+	margin-left: 120px;
+	width: 80%;
+	line-height: 1.5;
+}
+#h31{
+	font-family: arial;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+	color: #FF8C00;
+	margin: 0px;
+	padding-top: 15px;
+}
+img{
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+body{
+	margin: 0px;
+	padding: 0px;
+}
+h2{
+	font-family: arial;
+	color: #FF8C00;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+h3{
+	color: #FF8C00;
+
+}
+#h31, #h32, #h33, #h34, #h35, #h36, #h37, #h38{
+	font-family: arial;
+	margin-left: 120px;
+	width: 80%;
+	line-height: 1.5;
+	color:#FF8C00;
+}
+#p4{
+	font-family: arial;
+	margin-left: 120px;
+	width: 80%;
+	line-height: 1.5;
+}
+img{
+	border-radius: 10px;
+	box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+#pj1, #pj2{
+	font-family: arial;
+	margin-left: 120px;
+	width: 80%;
+	line-height: 1.5;
+
+}
+h5{
+	font-size: 17px;
+	font-family: arial;
+}
+
+  #menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+#divt{
+   background-color: #FF8C00; /* Cambié el color de fondo */
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+#li1 {
+    position: relative;
+    color: #233140;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px; /* Añadí bordes redondeados */
+
+}
+#menu{
+  display: flex;
+    align-items: center;
+}
+#divt{
+  height: 30px;
+
+}
+
+#li1, #lis{
+  font-family: arial;
+  font-size: 18px;
+}
+#li1:hover #submenu {
+    display: block;
+}
+#lis, #li1{
+  padding: 8px;
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 5px; /* Añadí bordes redondeados */
+}
+#lis:hover{
+  background-color: #FFD700;
+}
+#li1:hover #submenu {
+    display: block;
+    background-color:#FFB74D;
+}
+#li1:hover{
+  border-radius: 10px;
+  background-color: #FFB74D;
+}
+#submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #FFB74D; /* Cambié el color de fondo */
+    padding: 10px;
+    border-radius: 5px; /* Añadí bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+    #al {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+#divuno{
+	background-color:#FF8C00;
+	margin: px;
+}
+#re{
+	color: white;
+	font-family: arial;
+
+}
+a {
+      display: block;
+      color: white;
+      text-decoration: none;
+    }
