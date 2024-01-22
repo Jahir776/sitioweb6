@@ -1,0 +1,54 @@
+#pint1, #pint2{
+	font-family: arial;
+	margin-left: 120px;
+	width: 80%;
+	line-height: 1.5;
+}
+h2{
+	font-family: arial;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+	color: white;
+	margin: 0px;
+	padding-top: 15px;
+}
+#divuno{
+  background-color: #e13325;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  height: 60px;
+
+}
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+#h31, #h32, #h33, #h34, #h35, #h36, #h37, #h38{
+	font-family: arial;
+	margin-left: 120px;
+	width: 80%;
+	line-height: 1.5;
+	color:#e13325;
+}
+#p4{
+	font-family: arial;
+	margin-left: 120px;
+	width: 80%;
+	line-height: 1.5;
+}
+img{
+	border-radius: 10px;
+	box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+#pj1, #pj2{
+	font-family: arial;
+	margin-left: 120px;
+	width: 80%;
+	line-height: 1.5;
+
+}
+h5{
+	font-size: 17px;
+	font-family: arial;
+}
